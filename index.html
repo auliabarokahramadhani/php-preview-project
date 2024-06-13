@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost/auliabr/Hey.Ag!/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body background="./index_files/bg2.jpg">
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Aulia Barokah Ramadhani | NIM : 222303003</title>
+<style>
+    body {
+    text-align: center;
+}
+
+header p, header h3 {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+     body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+        }
+    .card{
+    max-width : 500px;
+    border: solid 1px #800000;
+    margin : 20px 0;
+    padding : 12px;
+    font-size : 16px;
+    text-align : center;
+    border-radius : 10px;
+    background : #800000;
+    color: white; /* Mengubah warna font menjadi putih */}
+
+.card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 12px 0;
+            box-shadow: 0 0 3px gray;
+}
+
+.card button {
+            margin-top: 15px;
+            width : 100%;
+            padding: 10px 20px;
+            border: none;
+            background-color: #gray;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #004494;
+        }
+    
+.form-add input,form-order input {
+    margin-top: 15px;
+            width : 100%;
+            padding: 10px 0px;
+            border: none;
+            background-color: #gray;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+}
+</style>
+
+
+<h1> Hey.AG! </h1>
+
+<header> 
+    <p> <b>Welcome to Our Online Shop</b></p>
+    <br>
+    <br>
+<p>Manik-Manik Creative Shop: Gelang, Cincin, dan Gantungan Ponsel Menarik!</p><br>
+<br>
+<h2>About Us</h2><br> Selamat datang di <b>Hey.Ag!</b> yang penuh kreativitas! Kami adalah tempat yang tepat bagi Anda yang mencari aksesori unik dan berbeda untuk melengkapi gaya Anda.
+Kami menawarkan berbagai macam gelang, cincin, dan gantungan ponsel yang terbuat dari manik-manik yang cantik dan menarik.
+Kami percaya bahwa setiap detail dalam penampilan Anda dapat menjadi cerminan dari kepribadian dan gaya Anda.
+Oleh karena itu, kami selalu berusaha untuk menyediakan produk-produk yang tidak hanya indah secara visual, tetapi juga berkualitas
+tinggi dan nyaman digunakan sehari-hari.
+Dengan berbagai pilihan warna, desain, dan motif yang beragam, kami yakin Anda akan menemukan sesuatu yang sesuai
+dengan selera dan gaya pribadi Anda.
+
+            <br>
+            <br>Selamat berbelanja di toko online kami dan jadikan aksesori dari manik-manik kami sebagai bagian dari gaya Anda yang unik dan kreatif!.s
+</header> 
+<div class="container">
+<h2>Tampilkan Barang</h2>
+Stock Barang Tersedia sebanyak 5
+        <div class="card">
+                <div>Gelang Berds Bracelet Red Deis</div>
+                <img src="./index_files/product3.jpg" class="gambar">
+                <div>15000</div>
+                <a href="http://localhost/auliabr/Hey.Ag!/order.php?kode_barang=AG001">
+                <button>Beli</button>
+                </a>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        <div class="card">
+                <div>Phone Strap Gantungan Hp Kpop </div>
+                <img src="./index_files/product2.jpg" class="gambar">
+                <div>10000</div>
+                <a href="http://localhost/auliabr/Hey.Ag!/order.php?kode_barang=AG002">
+                <button>Beli</button>
+                </a>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        <div class="card">
+                <div>Cincin Beards Cherry Set Lucu </div>
+                <img src="./index_files/product1.jpg" class="gambar">
+                <div>7000</div>
+                <a href="http://localhost/auliabr/Hey.Ag!/order.php?kode_barang=AG003">
+                <button>Beli</button>
+                </a>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        <div class="card">
+                <div>Stiker Smile Garden</div>
+                <img src="./index_files/product4.jpg" class="gambar">
+                <div>5000</div>
+                <a href="http://localhost/auliabr/Hey.Ag!/order.php?kode_barang=AG004">
+                <button>Beli</button>
+                </a>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        <div class="card">
+                <div>Stiker Foodie</div>
+                <img src="./index_files/product5.jpg" class="gambar">
+                <div>5000</div>
+                <a href="http://localhost/auliabr/Hey.Ag!/order.php?kode_barang=AG005">
+                <button>Beli</button>
+                </a>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        <div class="card form-add">
+        <h3>Tambah Barang</h3>
+                <input type="text" name="nama_barang" placeholder="Nama barang">
+                <input type="file" name="gambar" accept=".jpg,.png">
+                <input type="text" name="harga_jual" placeholder="Harga jual">
+                <input type="text" name="harga_beli" placeholder="Harga beli">
+                <input type="text" name="satuan" placeholder="Satuan">
+                <input type="text" name="kategori" placeholder="Kategori">
+                <input type="text" name="stock" placeholder="Stock">
+                <br>
+                <button>Add</button>
+                </div>
+
+
+</div></body></html>
